@@ -272,6 +272,6 @@ git push origin feature/new-feature
 
 # 💜 Acknowledgments
 
-Developed for **International Women’s Day 2025** to demonstrate how modern **AI and cloud technologies** can be used to build a safer and more supportive digital ecosystem for women.
+Developed for **International Women’s Day 2026** to demonstrate how modern **AI and cloud technologies** can be used to build a safer and more supportive digital ecosystem for women.
 
 > **"Empowering women isn't just a goal; it's a mission we code into reality."**
