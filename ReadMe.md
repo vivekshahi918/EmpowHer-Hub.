@@ -177,20 +177,6 @@ A QR code will appear in your terminal.
 
 Open the Expo Go app on your mobile device and scan the QR code to launch the application.
 
-🚀 Deployment
-
-The backend is configured for deployment using Vercel.
-
-Steps to Deploy
-
-Push your project to GitHub
-
-Go to Vercel Dashboard
-
-Import the GitHub repository
-
-Vercel will automatically configure the Node.js environment
-
 ---
 
 # 🚀 Deployment
