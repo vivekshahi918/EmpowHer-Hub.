@@ -191,82 +191,101 @@ Import the GitHub repository
 
 Vercel will automatically configure the Node.js environment
 
-Deploy the project
+---
+
+# 🚀 Deployment
+
+The backend is configured for deployment using **Vercel**.
+
+## Steps to Deploy
+
+1. Push your project to **GitHub**
+2. Open the **Vercel Dashboard**
+3. Click **Add New Project**
+4. Import your **GitHub repository**
+5. Vercel will automatically detect the **Node.js environment**
+6. Click **Deploy**
 
 Configuration file used for deployment:
 
+```json
 vercel.json
-🔄 Application Workflows
-🛡️ Security Scanner Workflow
+```
 
-User enters suspicious or unwanted text.
+---
 
-The text is sent to the backend.
+# 🔄 Application Workflows
 
-The backend sends the message to OpenAI for analysis.
+## 🛡️ Security Scanner Workflow
 
-OpenAI detects:
+1. User enters suspicious or unwanted text.
+2. The text is sent to the **backend API**.
+3. The backend sends the message to **OpenAI** for analysis.
+4. OpenAI checks the text for:
+   - Harassment
+   - Toxic language
+   - Threats
+5. If a threat is detected:
+   - The **Resend API** automatically sends an emergency report email.
+   - The email includes a **Google Maps location link** with the user's GPS coordinates.
 
-Harassment
+---
 
-Toxic language
+## 📚 AI Study Mentor Workflow
 
-Threats
+1. User asks a question related to **studies or career guidance**.
+2. The request is sent to the **backend server**.
+3. The backend forwards the request to **OpenAI**.
+4. OpenAI generates **personalized learning advice**.
+5. The response is returned and displayed in the **mobile application**.
 
-If a threat is detected:
+---
 
-The Resend API sends an emergency report email.
+## 🔮 Astrology Workflow
 
-Email includes a Google Maps location link with GPS coordinates.
+1. User selects their **zodiac sign**.
+2. The app sends a request to the **backend server**.
+3. The backend calls **OpenAI** to generate an empowering horoscope.
+4. A **daily motivational horoscope** is generated.
+5. The result is displayed inside the **mobile application**.
 
-📚 AI Study Mentor Workflow
+---
 
-User asks a question related to studies or career.
+# 🌟 Future Improvements
 
-Request is sent to the backend.
+- Real-time emergency contact notifications
+- Voice-based SOS activation
+- In-app chat with AI mentor
+- Secure marketplace payment integration
+- Community support and mentorship forum
 
-OpenAI generates personalized advice.
+---
 
-The response is returned to the mobile app.
-
-🔮 Astrology Workflow
-
-User selects their zodiac sign.
-
-Request is sent to the backend.
-
-OpenAI generates a daily motivational horoscope.
-
-The result is displayed inside the app.
-
-🌟 Future Improvements
-
-Real-time emergency contact notifications
-
-Voice-based SOS activation
-
-In-app chat with AI mentor
-
-Marketplace payment integration
-
-Community support forum
-
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome!
 
-If you'd like to improve the project:
+If you'd like to contribute:
 
-Fork the repository
+1. Fork this repository
+2. Create a new feature branch
 
-Create a new feature branch
+```bash
+git checkout -b feature/new-feature
+```
+3. Commit your changes
+```bash
+git commit -m "Added new feature"
+```
+4. Push to your branch
+```bash
+git push origin feature/new-feature
+```
+5. Open a Pull Request
+---
 
-Commit your changes
+# 💜 Acknowledgments
 
-Submit a Pull Request
+Developed for **International Women’s Day 2025** to demonstrate how modern **AI and cloud technologies** can be used to build a safer and more supportive digital ecosystem for women.
 
-💜 Acknowledgments
-
-Developed for International Women’s Day 2025 to demonstrate how modern AI and cloud technologies can build a safer and more supportive digital ecosystem for women.
-
-"Empowering women isn't just a goal; it's a mission we code into reality."
+> **"Empowering women isn't just a goal; it's a mission we code into reality."**
